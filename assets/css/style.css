@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 * {
     padding: 0;
@@ -12,12 +14,18 @@ html {
 
 body {
     font-size: 1.1rem; /*11px*/
-    font-family: 'Inter', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.purple {
+    color: #4A2632;
 }
 
 .bg-brown-light {
     background-color: #EADDCD;
 }
+
 
 
 /* Header */
@@ -30,12 +38,8 @@ body {
     background-color: #FEB561;
 }
 
-.bg-color {
-    background-color: #E5C889;
-}
-
 .custom-toggler {
-    border-color: #fff;
+    border-color: #4A2632;
 }
 
 /* index.php */
@@ -50,10 +54,11 @@ body {
 
 .orange-button {
     background-color: #FEB561;
-    color: #fff; }
+    color: #4A2632;
+    border-radius: 0px; }
     .orange-button:hover {
-    color: #FEB561;
-    border: solid #FEB561;
+    background-color: #FEC583;
+    color: #4A2632;
 }
 
 .scroll .scroll-down {
