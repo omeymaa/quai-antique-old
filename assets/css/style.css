@@ -26,6 +26,10 @@ body {
     background-color: #EADDCD;
 }
 
+.bg-brown-dark {
+    background-color: #A08986;
+}
+
 
 
 /* Header */
@@ -40,6 +44,10 @@ body {
 
 .custom-toggler {
     border-color: #4A2632;
+}
+
+nav > ul > li > a:hover {
+    color: #824358 !important; 
 }
 
 /* index.php */
@@ -63,8 +71,4 @@ body {
 
 .scroll .scroll-down {
     text-decoration: none;
-}
-
-#lien-actions a {
-    color: #000;
 }

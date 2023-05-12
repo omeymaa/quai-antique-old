@@ -27,7 +27,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
 
                     <ul class="navbar-nav nav-pills">
                         <?php foreach ($mainMenu as $key => $value) { ?>
-                            <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link <?php if ($currentPage === $key) {
+                            <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple <?php if ($currentPage === $key) {
                                                                                             echo 'active';
                                                                                         } ?>"><?= $value; ?></a></li>
                     <?php }
