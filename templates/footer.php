@@ -1,7 +1,7 @@
 <footer class="pt-5 bg-brown-light">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <h5 class="purple fw-bold">Quai Antique</h5>
 
                 <p>Specialités savoyarde à Chambéry</p>
@@ -12,7 +12,7 @@
                 </p>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <h5 class="purple fw-bold">Horaires</h5>
                 <p>
                     Mardi au Samedi <br>
@@ -23,13 +23,12 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <h5 class="purple fw-bold">Suivez-nous</h5>
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-
+                    <li class="me-2"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+                    <li class="me-2"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-twitter fa-xl"></i></a></li>
+                    <li class="me-2"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-instagram fa-xl"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -39,8 +38,8 @@
 <section class="bg-brown-dark py-1">
     <div class="container">
         <div class="d-flex flex-column flex-sm-row justify-content-between mt-3">
-            <p>© 2023 Quai Antique, Tous droits réservés.</p>
-            <p class="d-flex">Mentions Légales | CGU | Politique de confidentialité | Politique de cookies</p>
+            <p>© 2023 Quai Antique</p>
+            <p class="d-flex">Mentions Légales | CGU | Politique de cookies</p>
         </div>
     </div>
 </section>
