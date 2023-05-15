@@ -54,7 +54,44 @@ require('templates/header.php');
 </section>
 
 <!-- Galerie -->
+<section class="container py-5" id="gallery">
+    <h2 class="pb-3">Nos plats les plus appréciés</h2>
+    <div class="row">
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/camembert-roti.jpg" data-lightbox="photos" data-title="Camembert rôti" data-caption="Caption Two goes here">
+                <img class="img-fluid" src="assets/images/plats/camembert-roti.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/fondue-savoyarde.jpg" data-lightbox="photos" data-title="Fondue savoyarde">
+                <img class="img-fluid" src="assets/images/plats/fondue-savoyarde.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/gratin-pates-fromage.jpg" data-lightbox="photos" data-title="Gratin de pates au fromage">
+                <img class="img-fluid" src="assets/images/plats/gratin-pates-fromage.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+    </div>
 
+    <div class="row pt-3">
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/raclette-a-partager.jpg" data-lightbox="photos" data-title="Raclette à partager">
+                <img class="img-fluid" src="assets/images/plats/raclette-a-partager.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/salade-du-chef.jpg" data-lightbox="photos" data-title="Salade du chef">
+                <img class="img-fluid" src="assets/images/plats/salade-du-chef.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+        <div class="col-lg-4 col-12 pb-2">
+            <a href="assets/images/plats/spaghettis-savoyarde.jpg" data-lightbox="photos" data-title="Spaghettis savoyarde">
+                <img class="img-fluid" src="assets/images/plats/spaghettis-savoyarde.jpg" alt="Presentation Menus">
+            </a>
+        </div>
+    </div>
+</section>
 
 <!-- Avis client -->
 
