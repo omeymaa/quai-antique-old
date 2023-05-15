@@ -21,5 +21,16 @@ require('templates/header.php');
     </div>
 </div>
 
+<!-- Presentation -->
+
+
+<!-- Galerie -->
+
+
+<!-- Avis client -->
+
+
+<!-- Partenaires -->
+
 
 <?php require('templates/footer.php'); ?>
