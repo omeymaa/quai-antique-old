@@ -57,35 +57,32 @@ require('templates/header.php');
 <section class="container py-5" id="gallery">
     <h2 class="pb-3">Nos plats les plus appréciés</h2>
     <div class="row">
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/camembert-roti.jpg" data-lightbox="photos" data-title="Camembert rôti" data-caption="Caption Two goes here">
                 <img class="img-fluid" src="assets/images/plats/camembert-roti.jpg" alt="Presentation Menus">
             </a>
         </div>
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/fondue-savoyarde.jpg" data-lightbox="photos" data-title="Fondue savoyarde">
                 <img class="img-fluid" src="assets/images/plats/fondue-savoyarde.jpg" alt="Presentation Menus">
             </a>
         </div>
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/gratin-pates-fromage.jpg" data-lightbox="photos" data-title="Gratin de pates au fromage">
                 <img class="img-fluid" src="assets/images/plats/gratin-pates-fromage.jpg" alt="Presentation Menus">
             </a>
         </div>
-    </div>
-
-    <div class="row pt-3">
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/raclette-a-partager.jpg" data-lightbox="photos" data-title="Raclette à partager">
                 <img class="img-fluid" src="assets/images/plats/raclette-a-partager.jpg" alt="Presentation Menus">
             </a>
         </div>
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/salade-du-chef.jpg" data-lightbox="photos" data-title="Salade du chef">
                 <img class="img-fluid" src="assets/images/plats/salade-du-chef.jpg" alt="Presentation Menus">
             </a>
         </div>
-        <div class="col-lg-4 col-12 pb-2">
+        <div class="col-lg-4 col-6 pb-4">
             <a href="assets/images/plats/spaghettis-savoyarde.jpg" data-lightbox="photos" data-title="Spaghettis savoyarde">
                 <img class="img-fluid" src="assets/images/plats/spaghettis-savoyarde.jpg" alt="Presentation Menus">
             </a>
@@ -152,17 +149,17 @@ require('templates/header.php');
 
 <section class="container py-5" id="partners">
     <div class="row d-flex align-items-center text-center">
-        <div class="my-5 col-lg-3 col-6 ">
-            <img class="img-fluid w-25" src="assets/images/partners/pages-jaunes-partner.svg" alt="">
+        <div class="my-5 col-lg-3 col-6">
+            <img class="img-fluid w-25" src="assets/images/partners/pages-jaunes-partner.svg" alt="logo Pages jaunes">
         </div>
         <div class="my-5 col-lg-3 col-6 ">
-            <img class="img-fluid w-50" src="assets/images/partners/thefork-partner.svg" alt="">
+            <img class="img-fluid w-50" src="assets/images/partners/thefork-partner.svg" alt="logo The fork">
         </div>
         <div class="my-5 col-lg-3 col-6">
-            <img class="img-fluid w-50" src="assets/images/partners/tripadvisor-partner.svg" alt="">
+            <img class="img-fluid w-50" src="assets/images/partners/tripadvisor-partner.svg" alt="logo Tripadvisor">
         </div>
         <div class="my-5 col-lg-3 col-6">
-            <img class="img-fluid w-50" src="assets/images/partners/yelp-partner.svg" alt="">
+            <img class="img-fluid w-50" src="assets/images/partners/yelp-partner.svg" alt="logo Yelp">
         </div>
     </div>
 </section>

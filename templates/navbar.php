@@ -23,16 +23,16 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
                     <?php foreach ($mainMenu as $key => $value) { ?>
                         <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple"><?= $value; ?></a></li>
                     <?php } ?>
-                <?php } else { ?>
+                </ul>
+            <?php } else { ?>
 
-                    <ul class="navbar-nav nav-pills">
-                        <?php foreach ($mainMenu as $key => $value) { ?>
-                            <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple <?php if ($currentPage === $key) {
-                                                                                            echo 'active';
-                                                                                        } ?>"><?= $value; ?></a></li>
-                    <?php }
-                    } ?>
-                    </ul>
+                <ul class="navbar-nav nav-pills">
+                    <?php foreach ($mainMenu as $key => $value) { ?>
+                        <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple <?php if ($currentPage === $key) {
+                                                                                                    echo 'active';
+                                                                                                } ?>"><?= $value; ?></a></li>
+                <?php }
+                } ?>
                 </ul>
         </nav>
     </header>

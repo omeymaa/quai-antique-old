@@ -20,11 +20,11 @@ body {
 
 h2 {
     font-weight: 700;
+    color: #4A2632 !important;
 }
 
 .purple {
     color: #4A2632;
-    color: rgb(74, 38, 50);
 }
 
 .bg-brown-light {
