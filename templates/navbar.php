@@ -8,7 +8,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
     <header class="navbar navbar-light navbar-expand-lg">
         <div class="logo">
             <a href="index.php" class="navbar-brand">
-                <img class="img-fluid" src="images/logo-quai-antique.png" alt="Logo Quai Antique">
+                <img class="img-fluid" src="assets/images/logo-quai-antique.png" alt="Logo Quai Antique">
             </a>
         </div>
 
@@ -23,16 +23,16 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
                     <?php foreach ($mainMenu as $key => $value) { ?>
                         <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple"><?= $value; ?></a></li>
                     <?php } ?>
-                <?php } else { ?>
+                </ul>
+            <?php } else { ?>
 
-                    <ul class="navbar-nav nav-pills">
-                        <?php foreach ($mainMenu as $key => $value) { ?>
-                            <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple <?php if ($currentPage === $key) {
-                                                                                            echo 'active';
-                                                                                        } ?>"><?= $value; ?></a></li>
-                    <?php }
-                    } ?>
-                    </ul>
+                <ul class="navbar-nav nav-pills">
+                    <?php foreach ($mainMenu as $key => $value) { ?>
+                        <li class="nav-item ms-3"><a href="<?= $key; ?>" class="nav-link purple <?php if ($currentPage === $key) {
+                                                                                                    echo 'active';
+                                                                                                } ?>"><?= $value; ?></a></li>
+                <?php }
+                } ?>
                 </ul>
         </nav>
     </header>
