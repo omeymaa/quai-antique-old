@@ -8,7 +8,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
     <header class="navbar navbar-light navbar-expand-lg">
         <div class="logo">
             <a href="index.php" class="navbar-brand">
-                <img class="img-fluid" src="images/logo-quai-antique.png" alt="Logo Quai Antique">
+                <img class="img-fluid" src="assets/images/logo-quai-antique.png" alt="Logo Quai Antique">
             </a>
         </div>
 

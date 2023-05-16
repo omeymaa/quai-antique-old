@@ -150,5 +150,22 @@ require('templates/header.php');
 
 <!-- Partenaires -->
 
+<section class="container py-5" id="partners">
+    <div class="row d-flex align-items-center text-center">
+        <div class="my-5 col-lg-3 col-6 ">
+            <img class="img-fluid w-25" src="assets/images/partners/pages-jaunes-partner.svg" alt="">
+        </div>
+        <div class="my-5 col-lg-3 col-6 ">
+            <img class="img-fluid w-50" src="assets/images/partners/thefork-partner.svg" alt="">
+        </div>
+        <div class="my-5 col-lg-3 col-6">
+            <img class="img-fluid w-50" src="assets/images/partners/tripadvisor-partner.svg" alt="">
+        </div>
+        <div class="my-5 col-lg-3 col-6">
+            <img class="img-fluid w-50" src="assets/images/partners/yelp-partner.svg" alt="">
+        </div>
+    </div>
+</section>
+
 
 <?php require('templates/footer.php'); ?>
