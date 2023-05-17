@@ -13,14 +13,12 @@ require('./templates/header.php');
                         </div>
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
                             <div class="card-body p-4 p-lg-5">
-
                                 <form>
-
                                     <div class="d-flex align-items-center mb-2 pb-1">
                                         <a href="index.php"><img src="assets/images/logo-quai-antique.png" alt="Logo Quai Antique" class="w-50"></a>
                                     </div>
 
-                                    <h5 class="fw-bold mb-2 pb-2 purple">Identifiez-vous</h5>
+                                    <h5 class="fw-bold mb-2 pb-2 orange">Identifiez-vous</h5>
 
                                     <div class="form-outline mb-4">
                                         <span class="form-label" for="form2Example17"></span>
@@ -39,7 +37,6 @@ require('./templates/header.php');
                                     <a class="small text-muted" href="#!">Mot de passe oublié ?</a>
                                     <p class="small">Vous n'avez pas de compte ? <a href="signup.php" class="purple">Inscription</a></p>
                                 </form>
-
                             </div>
                         </div>
                     </div>
